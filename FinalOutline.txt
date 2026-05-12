@@ -1,0 +1,28 @@
+Educational Esports website proposal outline:
+
+1. Target Audience
+Primary Audience: General audiences with little to no background in Esports who are interested in learning about this growing field.
+
+Secondary Audience: Casual gamers, parents of young gamers, and potential Esports fans interested in understanding the basics of the industry.
+
+
+2. Project Goals
+Educate users on the fundamentals of Esports, including its history, popular games, key events, and roles within the industry.
+
+Simplify the concept of Esports for a general audience, providing clear explanations and relatable examples.
+
+Engage users with interactive elements that make learning about Esports easily accessible and enjoyable.
+
+
+3. Key Features
+Homepage: Introduction to Esports and a brief overview of site contents.
+
+What is Esports?: A page defining Esports, explaining its growth, and its significance as an industry.
+
+Popular Esports Titles: Profiles of major games like League of Legends, DOTA 2, Counter-Strike,also with basic gameplay and tournament info.
+
+Esports Events and Tournaments: Highlights of top global tournaments, like The International and League of Legends World Championship, with dates and brief descriptions.
+
+Careers in Esports: Information on different roles in Esports, such as players, casters, coaches, and analysts.
+
+Short trivia: A JavaScript-based quiz on Esports basics to make learning fun and assess users’ knowledge.

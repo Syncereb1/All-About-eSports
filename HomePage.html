@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About eSports</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        .slideshow-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .slides {
+            display: none;
+            text-align: center;
+        }
+        .slides img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .summaries {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 10px;
+        }
+        .summary {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>All About eSports</h1>
+    <p>Your hub for all things eSports</p>
+</header>
+
+<nav>
+    <a href="WhatIsEsports\WhatIsEsports.html">Overview</a>
+    <a href="PopularEsportTitles\PopularEsportTitles.html">Popular Titles</a>
+    <a href="EventsAndTournaments\EventsAndTournaments.html">Events & Tournaments</a>
+    <a href="RolesInEsports\RolesInEsports.html">Roles in eSports</a>
+	<a href="RacingSim\FinalEsports.html">Racing sim</a>
+</nav>
+
+<div class="slideshow-container">
+    <div class="slides">
+        <img src="EsportsPOV.jpg" alt="eSports action">
+        <p>Experience the thrill of competition!</p>
+    </div>
+    <div class="slides">
+        <img src="T12.jpg" alt="Teamwork in eSports">
+        <p>Teamwork makes the dream work. (Team T1 after there second straight LoL World championship win.)</p>
+    </div>
+    <div class="slides">
+        <img src="EsportsStadium.jpg" alt="Global tournaments">
+        <p>Compete on the global stage. (A look at the audience of the DOTA 2 tournament)</p>
+    </div>
+</div>
+
+<div class="summaries">
+    <div class="summary">
+        <h2>Overview</h2>
+        <p>Learn about the rise of eSports, its history, and its growing impact worldwide.</p>
+        <a href="WhatIsEsports\WhatIsEsports.html">Read more</a>
+    </div>
+    <div class="summary">
+        <h2>Popular Titles</h2>
+        <p>Explore the games that define the eSports scene, from League of Legends to Counter-Strike.</p>
+        <a href="PopularEsportTitles\PopularEsportTitles.html">Read more</a>
+    </div>
+    <div class="summary">
+        <h2>Events & Tournaments</h2>
+        <p>Discover the biggest events in eSports, like The International and the Fortnite World Cup.</p>
+        <a href="EventsAndTournaments\EventsAndTournaments.html">Read more</a>
+    </div>
+    <div class="summary">
+        <h2>Roles in eSports</h2>
+        <p>Understand the various roles that make up the eSports ecosystem, from players to production teams.</p>
+        <a href="RolesInEsports\RolesInEsports.html">Read more</a>
+    </div>
+</div>
+
+<footer>
+    <p> 2024 All About eSports.</p>
+</footer>
+
+<script>
+    let slideIndex = 0;
+    const slides = document.getElementsByClassName("slides");
+
+    function showSlides() {
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) slideIndex = 1;
+        slides[slideIndex - 1].style.display = "block";
+        setTimeout(showSlides, 3000); // Change slide every 3 seconds
+    }
+
+    showSlides();
+</script>
+
+</body>
+</html>
